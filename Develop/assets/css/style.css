@@ -1,3 +1,5 @@
+/* General formatting setup */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +10,15 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+/* Header styling */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,7 +32,7 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #9b9b9b;
 }
 
 .header div {
@@ -41,16 +52,8 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-.hero {
+/* Hero background image on webpage setup */
+.hero-marketing-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,6 +62,7 @@ p {
     background-position: center;
 }
 
+/*Placing content into columns*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,7 +72,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*Styling the main content*/
 .content {
     width: 75%;
     display: inline-block;
@@ -188,6 +192,7 @@ p {
     font-size: 36px;
 }
 
+/*Footer styling*/
 .footer {
     padding: 30px;
     clear: both;
