@@ -31,11 +31,12 @@ p {
     font-size: 48px;
 }
 
+/* SEO in Horiseon color change*/
 .header h1 .seo {
     color: #9b9b9b;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -43,11 +44,11 @@ p {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
